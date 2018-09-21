@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Username" value="qaplanet3"/>
+  <parameter name="Password" value="lab3"/>
+  <test thread-count="5" name="Parameters(failed)">
+    <classes>
+      <class name="datadriven.Parameters1">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- datadriven.Parameters1 -->
+    </classes>
+  </test> <!-- Parameters(failed) -->
+</suite> <!-- Failed suite [Suite] -->

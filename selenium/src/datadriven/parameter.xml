@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+     <parameter name="Username" value="qaplanet1"/>
+ 	<parameter name="Password" value="lab1"/>
+ 	
+ 	<parameter name="Username" value="qaplanet2"/>
+ 	<parameter name="Password" value="lab2"/>
+ 	
+ 	<parameter name="Username" value="qaplanet3"/>
+ 	<parameter name="Password" value="lab3"/>
+ 	 		
+    <test name="Parameters">
+ 
+		<classes>
+ 
+		    <class name="datadriven.Parameters1" />
+ 
+		</classes>
+ 
+    </test>
+ 
+</suite>

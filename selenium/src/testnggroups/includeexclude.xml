@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Exclude Group Suite" verbose="1">
+  <test name="Exclude Group Test">
+  
+    <groups>
+    <run>
+    <include name="i"/>
+    <exclude name="e"/>
+    </run>
+    </groups>
+    
+    <classes>
+      <class name="testnggroups.Excludindgroups" />
+    </classes>
+    
+  </test>
+</suite>
